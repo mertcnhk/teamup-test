@@ -5,13 +5,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
+1- npm install
+2- npx prisma generate
+3- npx database push
+4- npm install livekit-client @livekit/components-react @livekit/components-styles --save
+
+5- npm run dev
 # or
 yarn dev
 # or
 pnpm dev
 # or
 bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
